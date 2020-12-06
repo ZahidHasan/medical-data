@@ -3,6 +3,14 @@ This is a curated list of medical data for machine learning.
 This list is provided for informational purposes only, please make sure you respect any and all usage restrictions for any of the data listed here.
 
 ## 1. Medical Imaging Data
+
+__EchoNet-Dynamic__  
+A Large New Cardiac Motion Video Data Resource for Medical Machine Learning, from Stanford.
+Overview: https://echonet.github.io/dynamic/index.html
+Access: https://echonet.github.io/dynamic/index.html#access
+
+***
+
 __The National Library of Medicine presents MedPix®__  
 Database of 53,000 medical images from 13,000 patients with annotations. __Requires registration__.  
 Information: https://medpix.nlm.nih.gov/home  
@@ -65,8 +73,10 @@ Access: http://www.oasis-brains.org/
 ***
 
 __Isic Archive - Melanoma__
-This archive cotains 23k images of classified skin lesions. It contains both malignant and benign examples.  
-Each example cotains the image of the lesion, meta data regarding the lesion (including clasisfication and segmentation) and meta data regarding the patient.  
+This archive contains 23k images of classified skin lesions. It contains both malignant and benign examples.  
+
+Each example contains the image of the lesion, meta data regarding the lesion (including clasisfication and segmentation) and meta data regarding the patient.  
+
 The data can be viewed in this link: https://www.isic-archive.com (in the gallery section)  
 It can be downloaded through the site or by using this repository:   
 https://github.com/GalAvineri/ISIC-Archive-Downloader  
@@ -78,7 +88,7 @@ The SCMR Consensus Dataset is a set of 15 cardiac MRI studies of mixed pathologi
 
 
 __Sunnybrook Cardiac Data__
-The Sunnybrook Cardiac Data (SCD) , also known as the 2009 Cardiac MR Left Ventricle Segmentation Challenge data, consist of 45 cine-MRI images from a mixed of patients and pathologies: healthy , hypertrophy , heart failure with infarction and heart...
+The Sunnybrook Cardiac Data (SCD), also known as the 2009 Cardiac MR Left Ventricle Segmentation Challenge data, consist of 45 cine-MRI images from a mixed of patients and pathologies: healthy, hypertrophy, heart failure with infarction and heart...
 
 Access: http://www.cardiacatlas.org/studies/
 
@@ -113,7 +123,7 @@ Access: http://www.cancerimagingarchive.net/
 
 __Belarus tuberculosis portal__
 
-Tuberculosis (TB) is a major problem of Belarus Public Health .Recently situation has been complicated with emergence and development of MDR/XDR TB and HIV/TB which require long-term treatment. Many and the most severe cases usually disseminate across the country to different TB dispensaries. The ability of leading Belarus TB specialists to follow such patients will be greatly improved by using a common database containing patients’ radiological images, lab work and clinical data. This will also significantly improve adherence to the treatment protocol and result in a better record of the treatment outcomes.
+Tuberculosis (TB) is a major problem of Belarus Public Health. Recently situation has been complicated with emergence and development of MDR/XDR TB and HIV/TB which require long-term treatment. Many and the most severe cases usually disseminate across the country to different TB dispensaries. The ability of leading Belarus TB specialists to follow such patients will be greatly improved by using a common database containing patients’ radiological images, lab work and clinical data. This will also significantly improve adherence to the treatment protocol and result in a better record of the treatment outcomes.
 Criteria for inclusion clinical cases in the database of the portal - patients admitted to the MDR-TB department of RSPC of Pulmonology and Tuberculosis with diagnosed or suspected of MDR-TB, which conducted CT – study (± 2 months from the date of registration)
 Belarus dataset have both chest X-rays and CT scans of the same patient.
 
@@ -151,13 +161,13 @@ Access: http://peipa.essex.ac.uk/info/mias.html
 
 __Prostate__
 
-Prostate cancer (CaP) has been reported on a worldwide scale to be the second most frequently diagnosed cancer of men accounting for 13.6% (Ferlay et al. (2010)). Statistically, in 2008, the number of new diagnosed cases was estimated to be 899, 000 with no less than 258, 100 deaths (Ferlay et al. (2010)).
+Prostate cancer (CaP) has been reported on a worldwide scale to be the second most frequently diagnosed cancer of men accounting for 13.6% (Ferlay et al. (2010)). Statistically, in 2008, the number of new diagnosed cases was estimated to be 899,000 with no less than 258,100 deaths (Ferlay et al. (2010)).
 
 Magnetic resonance imaging (MRI) provides imaging techniques allowing to diagnose and localize CaP. The I2CVB provides a multi-parametric MRI dataset to help at the development of computer-aided detection and diagnosis (CAD) system.
 Access: http://i2cvb.github.io/
 
 ***
-Access: http://www.medinfo.cs.ucy.ac.cy/index.php/facilities/32-software/218-datasets
+Access: http://www.ehealthlab.cs.ucy.ac.cy/index.php/facilities/32-software/218-datasets
 
 - __MRI Lesion Segmentation in Multiple Sclerosis Database__
 
@@ -183,7 +193,7 @@ __SCR database: Segmentation in Chest Radiographs__
 
 The automatic segmentation of anatomical structures in chest radiographs is of great importance for computer-aided diagnosis in these images. The SCR database has been established to facilitate comparative studies on segmentation of the lung fields, the heart and the clavicles in standard posterior-anterior chest radiographs.
 
-In the spirit of cooperative scientific progress, we freely share the SCR database and are committed to maintaining a public repository of results of various algorithms on these segmentation tasks. On thes pages, instructions can be found on downloading the database and uploading results, and benchmark results of various methods can be inspected.
+In the spirit of cooperative scientific progress, we freely share the SCR database and are committed to maintaining a public repository of results of various algorithms on these segmentation tasks. On these pages, instructions can be found on downloading the database and uploading results, and benchmark results of various methods can be inspected.
 
 Access: http://www.isi.uu.nl/Research/Databases/SCR/
 
@@ -358,6 +368,8 @@ __Challenges track in MICCAI Conference__
 
 The Medical Image Computing and Computer Assisted Intervention. Most of the challenges would've been covered by websites like grand-challenges etc. You can still see all of them under the "Satellite Events" tab of the conference sites.
 
+- 2019 - https://www.miccai2019.org/programme/workshops-challenges-tutorials/#tablepress-10
+- 2018 - https://www.miccai2018.org/en/WORKSHOP---CHALLENGE---TUTORIAL.html
 - 2017 - http://www.miccai2017.org/satellite-events
 - 2016 - http://www.miccai2016.org/en/SATELLITE-EVENTS.html
 - 2015 - https://www.miccai2015.org/frontend/index.php?page_id=589
@@ -370,6 +382,8 @@ __International Symposium on Biomedical Imaging (ISBI)__
 
 The IEEE International Symposium on Biomedical Imaging (ISBI) is a scientific conference dedicated to mathematical, algorithmic, and computational aspects of biomedical imaging, across all scales of observation. Most of these challenges will be listed in grand-challenges. You can still access it by visiting the "Challenges" tab under "Program" in each year's website.
 
+- 2019 - https://biomedicalimaging.org/2019/challenges/
+- 2018 - https://biomedicalimaging.org/2018/challenges/
 - 2017 - http://biomedicalimaging.org/2017/challenges/
 - 2016 - http://biomedicalimaging.org/2016/?page_id=416
 
@@ -386,11 +400,29 @@ Access: https://continuousregistration.grand-challenge.org/home/
 
 ***
 
+__Automatic Non-rigid Histological Image Registration (ANHIR)__
+
+This ANHIR challenge aims at the automatic nonlinear image registration of 2D whole slice imaging (WSI) microscopy images of histopathology tissue samples stained with different dyes. The task is difficult due to non-linear deformations affecting the tissue samples, different appearance of each stain, repetitive texture, and the large size of the whole slide images.
+
+* Challenge: https://anhir.grand-challenge.org/
+* Benchmark: http://borda.github.io/BIRL
+* Refernce: [BIRL: Benchmark on Image Registration methods with Landmark validation](https://www.researchgate.net/publication/338291737_BIRL_Benchmark_on_Image_Registration_methods_with_Landmark_validation)
+
+***
+
 __Bone X-Ray Deep Learning Competition using MURA__
 
 MURA (musculoskeletal radiographs) is a large dataset of bone X-rays. The Stanford ML Group and AIMI Center are hosting a competition where algorithms are tasked with determining whether an X-ray study is normal or abnormal. The algorithms are evaluated on a test set of 207 musculoskeletal studies, where each study was individually retrospectively labeled as normal or abnormal by 6 board-certified radiologists. Three of these radiologists were used to create a gold standard, defined as the majority vote of the labels of the radiologists, and the other three were used to obtain the best radiologist performance, defined as the maximum score of the three radiologists with the gold standard as groundtruth. The challenge leaderboard is hosted publicly and updated every two weeks.
 
 Access: https://stanfordmlgroup.github.io/competitions/mura/
+
+***
+
+__2019 Kidney and Kidney Tumor Segmentation Challenge (KiTS19)__
+
+The KiTS19 challenge is on the semantic segmentation of kidneys and kidney tumors in contrast-enhanced CT scans. The dataset consists of 300 patients with preoperative arterial-phase abdominal CTs annotated by experts. 210 (70%) of these were released as a training set and the remaining 90 (30%) were held out as a test set. This challenge was held in conjunction with MICCAI 2019.
+
+Access: https://github.com/neheller/kits19/
 
 ***
 
@@ -420,6 +452,13 @@ Paper: https://arxiv.org/abs/1804.01486
 Embeddings:  https://figshare.com/s/00d69861786cd0156d81  
 Interactive tool: http://cui2vec.dbmi.hms.harvard.edu  
 ***
+
+__Evaluation of Embeddings of Laboratory Test Codes for Patients at a Cancer Center__  
+200 dimensional Word2Vec embeddings of 1098 laboratory test codes (LOINCs) trained from 8,280,238 lab orders for 79,081 patients at City of Hope National Medical Center (Los Angeles, CA).  
+Paper: https://arxiv.org/abs/1907.09600  
+Embeddings and Code: https://github.com/elleros/DSHealth2019_loinc_embeddings  
+***
+
 
 ## 4. National Healthcare Data  
 __Centers for Disease Control and Prevention (CDC)__  
@@ -499,6 +538,9 @@ Data: https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Mul
 __Parkinson's Disease Classification Data Set__  
 Data: https://archive.ics.uci.edu/ml/datasets/Parkinson%27s+Disease+Classification
 
+__Primary Tumor Dataset__
+Data: https://archive.ics.uci.edu/ml/datasets/primary+tumor
+
 ## 6. Biomedical Literature
 __PMC Open Access Subset__  
 Collection of all the full-text, open access articles in Pubmed central.  
@@ -520,6 +562,37 @@ NLM also provided Web API for accessing biomedical literatures in PubMed.
 Instructions for getting PubMed articles: https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/BioC-PubMed/ (not full text, just title, abstract, etc.)
 
 For articles in PubMed Central, instructions for getting the whole articles: https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/BioC-PMC/
+
+__EBM NLP__
+
+Collection of pubmed abstracts from randomized control trials (RCTs). Annotation of Population, Intervention, and Outcomes (PICO elements) are available.
+
+Paper: https://arxiv.org/abs/1806.04185
+
+Data: https://ebm-nlp.herokuapp.com/annotations
+
+Website: https://ebm-nlp.herokuapp.com/index
+
+__Evidence Inference__
+
+A dataset for inferring the results of randomized control trials (RCTs). A collection of pubmed RCTs from the open access subset. Annotations of (intervention, comparison intervention, outcome, significance finding, evidence span) are available. 
+
+Paper: https://arxiv.org/abs/1904.01606
+
+Data: https://github.com/jayded/evidence-inference/tree/master/annotations
+
+Website: http://evidence-inference.ebm-nlp.com/
+
+__PubMedQA__
+
+A dataset for biomedical research question answering. The task is to use yes/no/maybe to answer naturally occuring questions in PubMed titles.
+
+Paper: https://arxiv.org/abs/1909.06146
+
+Data: https://github.com/pubmedqa/pubmedqa
+
+Website: https://pubmedqa.github.io/
+
 
 ## 6. TREC Precision Medicine / Clinical Decision Support Track
 Text REtrieval Conference (TREC) is running a track on Precision Medicine / Clinical Decision Support from 2014.
